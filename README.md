@@ -16,15 +16,6 @@ This repository contains an implementation of a Convolutional Neural Network (CN
 
 ```
 project_root/
-├── data/
-│   ├── train/
-│   │   ├── pizza/
-│   │   ├── steak/
-│   │   └── sushi/
-│   └── test/
-│       ├── pizza/
-│       ├── steak/
-│       └── sushi/
 ├── model.py         # Defines the CNN architecture
 ├── engine.py        # Contains training and testing logic
 ├── data_setup.py    # Handles dataset loading and preprocessing
@@ -54,7 +45,7 @@ pip install -r requirements.txt
 ---
 
 ## Dataset Preparation
-
+The dataset used for this project can be found on [Kaggle](https://www.kaggle.com/datasets/dietzschenostoevsky/pizza-steak-sushi).
 The dataset should be structured as follows:
 
 ```
